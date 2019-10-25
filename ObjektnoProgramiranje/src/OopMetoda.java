@@ -60,8 +60,8 @@ if (kila == kila2) {
 /*int brojSrca = osoba.brojSrca;*/
 	
 
-osoba.Ime = "Jovan";
-osoba.Prezime = "Jovanovic";
+osoba.Ime = "Jovan ";
+osoba.Prezime = "Jovanovic ";
 
 System.out.println ("Ime osobe je " + osoba.Ime + "" + osoba.Prezime );
 
@@ -73,6 +73,28 @@ osoba.Automobil = car;
 
 System.out.println ("Ova osoba vozi automobil marke " + osoba.Automobil.marka);
 		
+
+Oop l = new Oop ();
+String ime = "Zoran";
+String prezime = "Zoranic";
+
+p.pozdrav(ime, prezime);
+ 
+p.pozdravSvete ();
+
+
+p.Ime = "Zike";
+
+String imeOsobe = "Visnje";
+p.pozdravSvete ();
+
+
+
+
+
+
+
+
 
 
 
