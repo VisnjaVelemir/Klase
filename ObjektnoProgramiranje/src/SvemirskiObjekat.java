@@ -6,11 +6,46 @@ public class SvemirskiObjekat {
 	
 	
 	public void dobrodosli (String ime) {
-		System.out.println("Dobrodosli na" + ime);
-		
-		
-		
+		System.out.println("Dobrodosli na svemirski objekat " + ime);
+			}
+
+	
+	
+	
+	public SvemirskiObjekat(String ime, double zapremina){
+		this.ime = ime;
+		this.zapremina = zapremina;	
 	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
