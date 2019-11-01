@@ -52,7 +52,7 @@ public class Alat {
 		
 		double kvadrat = x * x;
 		return kvadrat;
-		
+	
 		
 	}
 	
