@@ -1,3 +1,4 @@
+import ApstraktnaKlasa.Kablovi;
 
 public class Glavna {
 
@@ -27,9 +28,14 @@ public class Glavna {
 		
 		
 		
+	
+		Kablovi kablovi = new Kablovi ();
 		
+		kablovi.dodatak = "Konektori";
+		kablovi.modelKabla = "RJ256";
 		
-		
+	
+	
 		
 		
 		
