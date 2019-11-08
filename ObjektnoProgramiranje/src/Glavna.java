@@ -1,10 +1,11 @@
 import ApstraktnaKlasa.Kablovi;
+import Interface.Iconstruct;
 
 public class Glavna {
 
 	public static void main(String[] args) {
 		
-		
+/*		
 	SvemirskiObjekat objekat = new SvemirskiObjekat ( "NGC 1290", 20000);
 	
 	objekat.ime = "NGC 1290";
@@ -32,13 +33,27 @@ public class Glavna {
 		Kablovi kablovi = new Kablovi ();
 		
 		kablovi.dodatak = "Konektori";
-		kablovi.modelKabla = "RJ256";
+		kablovi.modelKabla = "RJ256";*/
 		
 	
 	
 		
 		
+		Kablovi k = new Kablovi ();
 		
+		k.dodatak = " Kabl ";
+		k.modelKabla = "Model kabla je ";
+		
+		/*k.katalog ();*/
+		
+		
+		
+		k.katalog ();
+		k.testiraj();
+		k.install ();
+		k.unistall();
+		
+	
 		
 		
 		
